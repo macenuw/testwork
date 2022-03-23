@@ -7,7 +7,7 @@
   &__title {
     font-size: 56px;
     margin-bottom: 61px;
-    font-weight: light;
+    font-family: 'roboto-light', sans-serif;
 
     @media (max-width:740px) {
       font-size: 36px;
@@ -25,7 +25,7 @@
     margin-bottom: 8px;
     font-size: 14px;
     line-height: 19px;
-    font-weight: medium;
+    font-weight: 400;
   }
 
   &__subtitle {

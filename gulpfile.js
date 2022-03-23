@@ -12,7 +12,7 @@ const uglify = require('gulp-uglify');
 const imagemin = require('gulp-imagemin');
 const del = require('del');
 const browserSync = require('browser-sync').create();
-const cssfont64 = require('gulp-cssfont64');
+const cssFont64 = require('gulp-cssfont64');
 
 
 
@@ -24,6 +24,12 @@ function browsersync() {
     })
 }
 
+function cssfont64() {
+    return src(['app/fonts/*.woff', 'app/fonts/*.woff2'])
+        .pipe(cssFont64())
+        .pipe(dest('app/css/'))
+        .pipe(browserSync.stream());
+}
 
 function styles() {
     return src('app/scss/style.scss')
@@ -94,6 +100,7 @@ function cleanDist() {
 
 function watching() {
     watch(['app/scss/**/*.scss'], styles);
+    watch(['app/fonts/**/*'], cssfont64);
     watch(['app/js/**/*.js', '!app/js/main.min.js'], scripts);
     watch(['app/*.html']).on('change', browserSync.reload);
 }
