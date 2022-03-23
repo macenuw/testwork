@@ -5,543 +5,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
-
-    <div class="catalog">
-        <div class="product-card">
-            <div class="product-card__inner">
-                <div class="product-card__img-inner">
-                    <img src="./images/holod.png" alt="" class="product-card__img">
+    <main>
+        <section class="choose container">
+            <h2 class="choose__title">Buy Our Safe & Secure VPN</h2>
+            <span class="choose__step">step 1</span>
+            <h3 class="choose__subtitle">Choose Your Plan</h3>
+            <div class="choose__items">
+                <div class="plan">
+                    <ul class="plan__inner">
+                        <li class="plan__period">monthly</li>
+                        <li class="plan__price">
+                            6.95
+                        </li>
+                        <li class="plan__benefit">
+                            <span class="plan__benefit-text">Includes all VPN features.</span></li>
+                        <li class="plan__select-btn">
+                            <button class="plan__btn">
+                                <span class="plan__btn-text">select plan</span>
+                                <span class="plan__btn-text plan__btn-text--selected">plan selected</span>
+                            </button>
+                        </li>
+                    </ul>
                 </div>
-                <div class="product-card__stock">
-                    <span class="product-card__stock-item">-24%</span>
-                    <span class="product-card__stock-item">хит</span>
+                <div class="plan">
+                    <ul class="plan__inner">
+                        <li class="plan__period">two years</li>
+                        <li class="plan__price">
+                            2.91
+                        </li>
+                        <li class="plan__benefit">
+                            <span class="plan__benefit-text">
+                                <span class="plan__benefit-text plan__benefit-text--accent">$166.80</span> $69.95 per
+                                two
+                                years</span>
+                            <span class="plan__benefit-text">Save 58%*</span>
+                        </li>
+                        <li class="plan__select-btn">
+                            <button class="plan__btn">
+                                <span class="plan__btn-text">select plan</span>
+                                <span class="plan__btn-text plan__btn-text--selected">plan selected</span>
+                            </button>
+                        </li>
+                    </ul>
                 </div>
-                <p class="product-card__stock-text">
-                    Знижка до 26% на холодильники
-                </p>
-                <h3 class="product-card__name">Холодильник Whirlpool W7 911 IOX (F00186964)</h3>
-                <div class="product-card__rate">
-                    <div class="product-card__star-inner">
-                        <img src="./images/star.png" alt="" class="product-card__star-img">
-                        <img src="./images/star.png" alt="" class="product-card__star-img">
-                        <img src="./images/star.png" alt="" class="product-card__star-img">
-                        <img src="./images/star.png" alt="" class="product-card__star-img">
-                        <img src="./images/star.png" alt="" class="product-card__star-img">
-                    </div>
-                    <a href="#" class="product-card__review-link">
-                        <span class="product-card__review-amount">10</span>
-                        <span class="product-card__review">відгуків</span>
-                    </a>
-                </div>
-                <div class="product-card__price-section">
-                    <span class="product-card__price-text">Цена:</span>
-                    <div class="product-card__price-now-inner">
-                        <span class="product-card__price-now">6 850 грн</span>
-                        <span class="product-card__cashback">+ 69грн кешбек</span>
-                    </div>
-                    <span class="product-card__old-price">8 999</span>
-                </div>
-                <div class="product-card__btns">
-                    <button class="product-card__btn">Купити</button>
-                    <button class="product-card__favorite">
-                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="1280.000000pt"
-                            height="1189.000000pt" viewBox="0 0 1280.000000 1189.000000"
-                            preserveAspectRatio="xMidYMid meet">
-                            <metadata>
-                                Created by potrace 1.15, written by Peter Selinger 2001-2017
-                            </metadata>
-                            <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)" fill="#000000"
-                                stroke="none">
-                                <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
-                        -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
-                        634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
-                        -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
-                        408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
-                        196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
-                        -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
-                        -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
-                        610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
-                            </g>
-                        </svg></button>
-                    <button class="product-card__compare">
-                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="1280.000000pt"
-                            height="1199.000000pt" viewBox="0 0 1280.000000 1199.000000"
-                            preserveAspectRatio="xMidYMid meet">
-                            <metadata>
-                                Created by potrace 1.15, written by Peter Selinger 2001-2017
-                            </metadata>
-                            <g transform="translate(0.000000,1199.000000) scale(0.100000,-0.100000)" fill="#000000"
-                                stroke="none">
-                                <path d="M6376 11948 c-3 -24 -22 -239 -41 -478 -74 -919 -116 -1177 -208
-                       -1277 -11 -13 -24 -23 -29 -23 -5 0 -43 33 -86 73 -111 104 -159 141 -251 196
-                       -337 203 -835 262 -1401 165 -265 -45 -502 -109 -1112 -298 -307 -96 -472
-                       -142 -658 -186 -284 -66 -633 -110 -717 -88 -40 10 -46 9 -68 -12 -13 -12 -27
-                       -34 -30 -49 -5 -23 35 -468 50 -558 l6 -33 174 0 c96 0 175 -2 175 -5 0 -3
-                       -23 -67 -51 -142 -63 -170 -483 -1311 -589 -1598 -77 -211 -344 -933 -850
-                       -2305 -149 -404 -321 -871 -382 -1038 l-112 -302 -98 0 c-61 0 -98 -4 -98 -10
-                       0 -6 22 -43 49 -83 191 -283 548 -560 1031 -801 182 -91 331 -147 515 -194
-                       453 -118 959 -120 1440 -7 542 128 927 369 1529 955 l138 135 -117 5 -117 5
-                       -115 310 c-172 468 -592 1606 -951 2580 -257 698 -583 1581 -892 2418 l-29 77
-                       1871 0 1871 0 -7 -192 c-4 -106 -20 -582 -36 -1058 -99 -2894 -116 -3391 -161
-                       -4670 -17 -487 -31 -986 -32 -1110 -1 -223 -1 -227 36 -415 61 -306 62 -466 1
-                       -587 -71 -141 -306 -345 -589 -513 -511 -302 -1401 -602 -2347 -791 -19 -4
-                       -28 -12 -28 -25 0 -19 53 -19 3340 -19 3287 0 3340 0 3340 19 0 13 -9 21 -27
-                       25 -1001 200 -1887 507 -2414 837 -254 158 -450 343 -516 485 -25 53 -28 73
-                       -31 184 -3 113 0 144 37 330 65 331 63 297 41 928 -11 312 -33 965 -50 1452
-                       -17 487 -39 1142 -50 1455 -30 878 -79 2301 -103 3015 l-22 645 1844 3 c1014
-                       1 1846 1 1847 -1 2 -1 -92 -259 -207 -572 -291 -790 -658 -1786 -979 -2655
-                       -149 -404 -384 -1041 -522 -1415 -137 -374 -256 -694 -263 -712 l-14 -32 -104
-                       -3 -104 -3 68 -95 c192 -267 446 -475 871 -714 170 -95 269 -141 431 -200 371
-                       -134 788 -189 1194 -155 259 21 546 79 763 154 298 104 634 314 955 598 166
-                       148 415 389 415 403 0 10 -24 14 -107 16 l-108 3 -148 400 c-81 220 -262 711
-                       -401 1090 -258 698 -590 1598 -1048 2840 -138 374 -279 757 -313 850 -35 94
-                       -66 178 -70 188 -7 16 6 17 178 17 l186 0 5 33 c16 97 56 540 50 561 -3 13
-                       -16 34 -29 46 -22 20 -28 22 -66 12 -33 -8 -68 -6 -178 13 -295 51 -478 96
-                       -1026 250 -657 185 -898 244 -1170 289 -283 47 -437 59 -700 53 -258 -5 -386
-                       -21 -533 -63 -204 -59 -330 -134 -499 -296 -61 -60 -115 -108 -120 -108 -14 0
-                       -48 40 -67 77 -30 59 -66 204 -86 346 -30 215 -47 400 -105 1117 -21 266 -23
-                       280 -45 280 -13 0 -19 -11 -24 -42z m-3918 -3158 c118 -320 358 -973 892
-                       -2420 503 -1363 772 -2094 825 -2237 l53 -143 -1894 0 c-1042 0 -1894 1 -1894
-                       3 0 4 -42 -110 890 2417 149 404 383 1039 520 1410 225 611 462 1253 475 1289
-                       3 8 7 12 9 10 2 -2 58 -150 124 -329z m8139 -58 c78 -213 264 -718 413 -1122
-                       448 -1216 755 -2047 1025 -2780 140 -382 267 -723 280 -758 14 -34 25 -67 25
-                       -72 0 -7 -650 -10 -1890 -10 -1039 0 -1890 3 -1890 6 0 7 53 152 530 1444 149
-                       404 383 1039 520 1410 137 371 371 1006 521 1410 149 404 281 763 292 798 12
-                       34 24 62 27 62 3 0 69 -175 147 -388z" />
-                            </g>
-                        </svg></button>
+                <div class="plan">
+                    <ul class="plan__inner">
+                        <li class="plan__period">yearly</li>
+                        <li class="plan__price">
+                            3.33
+                        </li>
+                        <li class="plan__benefit">
+                            <span class="plan__benefit-text">
+                                <span class="plan__benefit-text plan__benefit-text--accent">$83.40</span> $39.95 per
+                                year</span>
+                            <span class="plan__benefit-text">Save 52%*</span>
+                        </li>
+                        <li class="plan__select-btn">
+                            <button class="plan__btn">
+                                <span class="plan__btn-text">select plan</span>
+                                <span class="plan__btn-text plan__btn-text--selected">plan selected</span>
+                            </button>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-        <div class="product-card">
-            <div class="product-card__inner">
-                <div class="product-card__img-inner">
-                    <img src="./images/holod.png" alt="" class="product-card__img">
-                </div>
-                <div class="product-card__stock">
-                    <span class="product-card__stock-item">-24%</span>
-                    <span class="product-card__stock-item">хит</span>
-                </div>
-                <p class="product-card__stock-text">
-                    Знижка до 26% на холодильники
-                </p>
-                <h3 class="product-card__name">Холодильник Whirlpool W7 911 IOX (F00186964)</h3>
-                <div class="product-card__rate">
-                    <div class="product-card__star-inner">
-                        <img src="./images/star.png" alt="" class="product-card__star-img">
-                        <img src="./images/star.png" alt="" class="product-card__star-img">
-                        <img src="./images/star.png" alt="" class="product-card__star-img">
-                        <img src="./images/star.png" alt="" class="product-card__star-img">
-                        <img src="./images/star.png" alt="" class="product-card__star-img">
-                    </div>
-                    <a href="#" class="product-card__review-link">
-                        <span class="product-card__review-amount">10</span>
-                        <span class="product-card__review">відгуків</span>
-                    </a>
-                </div>
-                <div class="product-card__price-section">
-                    <span class="product-card__price-text">Цена:</span>
-                    <div class="product-card__price-now-inner">
-                        <span class="product-card__price-now">6 850 грн</span>
-                        <span class="product-card__cashback">+ 69грн кешбек</span>
-                    </div>
-                    <span class="product-card__old-price">8 999</span>
-                </div>
-                <div class="product-card__btns">
-                    <button class="product-card__btn">Купити</button>
-                    <button class="product-card__favorite">
-                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="1280.000000pt"
-                            height="1189.000000pt" viewBox="0 0 1280.000000 1189.000000"
-                            preserveAspectRatio="xMidYMid meet">
-                            <metadata>
-                                Created by potrace 1.15, written by Peter Selinger 2001-2017
-                            </metadata>
-                            <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)" fill="#000000"
-                                stroke="none">
-                                <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
-                        -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
-                        634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
-                        -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
-                        408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
-                        196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
-                        -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
-                        -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
-                        610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
-                            </g>
-                        </svg></button>
-                    <button class="product-card__compare">
-                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="1280.000000pt"
-                            height="1199.000000pt" viewBox="0 0 1280.000000 1199.000000"
-                            preserveAspectRatio="xMidYMid meet">
-                            <metadata>
-                                Created by potrace 1.15, written by Peter Selinger 2001-2017
-                            </metadata>
-                            <g transform="translate(0.000000,1199.000000) scale(0.100000,-0.100000)" fill="#000000"
-                                stroke="none">
-                                <path d="M6376 11948 c-3 -24 -22 -239 -41 -478 -74 -919 -116 -1177 -208
-                       -1277 -11 -13 -24 -23 -29 -23 -5 0 -43 33 -86 73 -111 104 -159 141 -251 196
-                       -337 203 -835 262 -1401 165 -265 -45 -502 -109 -1112 -298 -307 -96 -472
-                       -142 -658 -186 -284 -66 -633 -110 -717 -88 -40 10 -46 9 -68 -12 -13 -12 -27
-                       -34 -30 -49 -5 -23 35 -468 50 -558 l6 -33 174 0 c96 0 175 -2 175 -5 0 -3
-                       -23 -67 -51 -142 -63 -170 -483 -1311 -589 -1598 -77 -211 -344 -933 -850
-                       -2305 -149 -404 -321 -871 -382 -1038 l-112 -302 -98 0 c-61 0 -98 -4 -98 -10
-                       0 -6 22 -43 49 -83 191 -283 548 -560 1031 -801 182 -91 331 -147 515 -194
-                       453 -118 959 -120 1440 -7 542 128 927 369 1529 955 l138 135 -117 5 -117 5
-                       -115 310 c-172 468 -592 1606 -951 2580 -257 698 -583 1581 -892 2418 l-29 77
-                       1871 0 1871 0 -7 -192 c-4 -106 -20 -582 -36 -1058 -99 -2894 -116 -3391 -161
-                       -4670 -17 -487 -31 -986 -32 -1110 -1 -223 -1 -227 36 -415 61 -306 62 -466 1
-                       -587 -71 -141 -306 -345 -589 -513 -511 -302 -1401 -602 -2347 -791 -19 -4
-                       -28 -12 -28 -25 0 -19 53 -19 3340 -19 3287 0 3340 0 3340 19 0 13 -9 21 -27
-                       25 -1001 200 -1887 507 -2414 837 -254 158 -450 343 -516 485 -25 53 -28 73
-                       -31 184 -3 113 0 144 37 330 65 331 63 297 41 928 -11 312 -33 965 -50 1452
-                       -17 487 -39 1142 -50 1455 -30 878 -79 2301 -103 3015 l-22 645 1844 3 c1014
-                       1 1846 1 1847 -1 2 -1 -92 -259 -207 -572 -291 -790 -658 -1786 -979 -2655
-                       -149 -404 -384 -1041 -522 -1415 -137 -374 -256 -694 -263 -712 l-14 -32 -104
-                       -3 -104 -3 68 -95 c192 -267 446 -475 871 -714 170 -95 269 -141 431 -200 371
-                       -134 788 -189 1194 -155 259 21 546 79 763 154 298 104 634 314 955 598 166
-                       148 415 389 415 403 0 10 -24 14 -107 16 l-108 3 -148 400 c-81 220 -262 711
-                       -401 1090 -258 698 -590 1598 -1048 2840 -138 374 -279 757 -313 850 -35 94
-                       -66 178 -70 188 -7 16 6 17 178 17 l186 0 5 33 c16 97 56 540 50 561 -3 13
-                       -16 34 -29 46 -22 20 -28 22 -66 12 -33 -8 -68 -6 -178 13 -295 51 -478 96
-                       -1026 250 -657 185 -898 244 -1170 289 -283 47 -437 59 -700 53 -258 -5 -386
-                       -21 -533 -63 -204 -59 -330 -134 -499 -296 -61 -60 -115 -108 -120 -108 -14 0
-                       -48 40 -67 77 -30 59 -66 204 -86 346 -30 215 -47 400 -105 1117 -21 266 -23
-                       280 -45 280 -13 0 -19 -11 -24 -42z m-3918 -3158 c118 -320 358 -973 892
-                       -2420 503 -1363 772 -2094 825 -2237 l53 -143 -1894 0 c-1042 0 -1894 1 -1894
-                       3 0 4 -42 -110 890 2417 149 404 383 1039 520 1410 225 611 462 1253 475 1289
-                       3 8 7 12 9 10 2 -2 58 -150 124 -329z m8139 -58 c78 -213 264 -718 413 -1122
-                       448 -1216 755 -2047 1025 -2780 140 -382 267 -723 280 -758 14 -34 25 -67 25
-                       -72 0 -7 -650 -10 -1890 -10 -1039 0 -1890 3 -1890 6 0 7 53 152 530 1444 149
-                       404 383 1039 520 1410 137 371 371 1006 521 1410 149 404 281 763 292 798 12
-                       34 24 62 27 62 3 0 69 -175 147 -388z" />
-                            </g>
-                        </svg></button>
-                </div>
-            </div>
-        </div>
-        <div class="product-card">
-            <div class="product-card__inner">
-                <div class="product-card__img-inner">
-                    <img src="./images/holod.png" alt="" class="product-card__img">
-                </div>
-                <div class="product-card__stock">
-                    <span class="product-card__stock-item">-24%</span>
-                    <span class="product-card__stock-item">хит</span>
-                </div>
-                <p class="product-card__stock-text">
-                    Знижка до 26% на холодильники
-                </p>
-                <h3 class="product-card__name">Холодильник Whirlpool W7 911 IOX (F00186964)</h3>
-                <div class="product-card__rate">
-                    <div class="product-card__star-inner">
-                        <img src="./images/star.png" alt="" class="product-card__star-img">
-                        <img src="./images/star.png" alt="" class="product-card__star-img">
-                        <img src="./images/star.png" alt="" class="product-card__star-img">
-                        <img src="./images/star.png" alt="" class="product-card__star-img">
-                        <img src="./images/star.png" alt="" class="product-card__star-img">
-                    </div>
-                    <a href="#" class="product-card__review-link">
-                        <span class="product-card__review-amount">10</span>
-                        <span class="product-card__review">відгуків</span>
-                    </a>
-                </div>
-                <div class="product-card__price-section">
-                    <span class="product-card__price-text">Цена:</span>
-                    <div class="product-card__price-now-inner">
-                        <span class="product-card__price-now">6 850 грн</span>
-                        <span class="product-card__cashback">+ 69грн кешбек</span>
-                    </div>
-                    <span class="product-card__old-price">8 999</span>
-                </div>
-                <div class="product-card__btns">
-                    <button class="product-card__btn">Купити</button>
-                    <button class="product-card__favorite">
-                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="1280.000000pt"
-                            height="1189.000000pt" viewBox="0 0 1280.000000 1189.000000"
-                            preserveAspectRatio="xMidYMid meet">
-                            <metadata>
-                                Created by potrace 1.15, written by Peter Selinger 2001-2017
-                            </metadata>
-                            <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)" fill="#000000"
-                                stroke="none">
-                                <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
-                        -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
-                        634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
-                        -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
-                        408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
-                        196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
-                        -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
-                        -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
-                        610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
-                            </g>
-                        </svg></button>
-                    <button class="product-card__compare">
-                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="1280.000000pt"
-                            height="1199.000000pt" viewBox="0 0 1280.000000 1199.000000"
-                            preserveAspectRatio="xMidYMid meet">
-                            <metadata>
-                                Created by potrace 1.15, written by Peter Selinger 2001-2017
-                            </metadata>
-                            <g transform="translate(0.000000,1199.000000) scale(0.100000,-0.100000)" fill="#000000"
-                                stroke="none">
-                                <path d="M6376 11948 c-3 -24 -22 -239 -41 -478 -74 -919 -116 -1177 -208
-                       -1277 -11 -13 -24 -23 -29 -23 -5 0 -43 33 -86 73 -111 104 -159 141 -251 196
-                       -337 203 -835 262 -1401 165 -265 -45 -502 -109 -1112 -298 -307 -96 -472
-                       -142 -658 -186 -284 -66 -633 -110 -717 -88 -40 10 -46 9 -68 -12 -13 -12 -27
-                       -34 -30 -49 -5 -23 35 -468 50 -558 l6 -33 174 0 c96 0 175 -2 175 -5 0 -3
-                       -23 -67 -51 -142 -63 -170 -483 -1311 -589 -1598 -77 -211 -344 -933 -850
-                       -2305 -149 -404 -321 -871 -382 -1038 l-112 -302 -98 0 c-61 0 -98 -4 -98 -10
-                       0 -6 22 -43 49 -83 191 -283 548 -560 1031 -801 182 -91 331 -147 515 -194
-                       453 -118 959 -120 1440 -7 542 128 927 369 1529 955 l138 135 -117 5 -117 5
-                       -115 310 c-172 468 -592 1606 -951 2580 -257 698 -583 1581 -892 2418 l-29 77
-                       1871 0 1871 0 -7 -192 c-4 -106 -20 -582 -36 -1058 -99 -2894 -116 -3391 -161
-                       -4670 -17 -487 -31 -986 -32 -1110 -1 -223 -1 -227 36 -415 61 -306 62 -466 1
-                       -587 -71 -141 -306 -345 -589 -513 -511 -302 -1401 -602 -2347 -791 -19 -4
-                       -28 -12 -28 -25 0 -19 53 -19 3340 -19 3287 0 3340 0 3340 19 0 13 -9 21 -27
-                       25 -1001 200 -1887 507 -2414 837 -254 158 -450 343 -516 485 -25 53 -28 73
-                       -31 184 -3 113 0 144 37 330 65 331 63 297 41 928 -11 312 -33 965 -50 1452
-                       -17 487 -39 1142 -50 1455 -30 878 -79 2301 -103 3015 l-22 645 1844 3 c1014
-                       1 1846 1 1847 -1 2 -1 -92 -259 -207 -572 -291 -790 -658 -1786 -979 -2655
-                       -149 -404 -384 -1041 -522 -1415 -137 -374 -256 -694 -263 -712 l-14 -32 -104
-                       -3 -104 -3 68 -95 c192 -267 446 -475 871 -714 170 -95 269 -141 431 -200 371
-                       -134 788 -189 1194 -155 259 21 546 79 763 154 298 104 634 314 955 598 166
-                       148 415 389 415 403 0 10 -24 14 -107 16 l-108 3 -148 400 c-81 220 -262 711
-                       -401 1090 -258 698 -590 1598 -1048 2840 -138 374 -279 757 -313 850 -35 94
-                       -66 178 -70 188 -7 16 6 17 178 17 l186 0 5 33 c16 97 56 540 50 561 -3 13
-                       -16 34 -29 46 -22 20 -28 22 -66 12 -33 -8 -68 -6 -178 13 -295 51 -478 96
-                       -1026 250 -657 185 -898 244 -1170 289 -283 47 -437 59 -700 53 -258 -5 -386
-                       -21 -533 -63 -204 -59 -330 -134 -499 -296 -61 -60 -115 -108 -120 -108 -14 0
-                       -48 40 -67 77 -30 59 -66 204 -86 346 -30 215 -47 400 -105 1117 -21 266 -23
-                       280 -45 280 -13 0 -19 -11 -24 -42z m-3918 -3158 c118 -320 358 -973 892
-                       -2420 503 -1363 772 -2094 825 -2237 l53 -143 -1894 0 c-1042 0 -1894 1 -1894
-                       3 0 4 -42 -110 890 2417 149 404 383 1039 520 1410 225 611 462 1253 475 1289
-                       3 8 7 12 9 10 2 -2 58 -150 124 -329z m8139 -58 c78 -213 264 -718 413 -1122
-                       448 -1216 755 -2047 1025 -2780 140 -382 267 -723 280 -758 14 -34 25 -67 25
-                       -72 0 -7 -650 -10 -1890 -10 -1039 0 -1890 3 -1890 6 0 7 53 152 530 1444 149
-                       404 383 1039 520 1410 137 371 371 1006 521 1410 149 404 281 763 292 798 12
-                       34 24 62 27 62 3 0 69 -175 147 -388z" />
-                            </g>
-                        </svg></button>
-                </div>
-            </div>
-        </div>
-        <div class="product-card">
-            <div class="product-card__inner">
-                <div class="product-card__img-inner">
-                    <img src="./images/holod.png" alt="" class="product-card__img">
-                </div>
-                <div class="product-card__stock">
-                    <span class="product-card__stock-item">-24%</span>
-                    <span class="product-card__stock-item">хит</span>
-                </div>
-                <p class="product-card__stock-text">
-                    Знижка до 26% на холодильники
-                </p>
-                <h3 class="product-card__name">Холодильник Whirlpool W7 911 IOX (F00186964)</h3>
-                <div class="product-card__rate">
-                    <div class="product-card__star-inner">
-                        <img src="./images/star.png" alt="" class="product-card__star-img">
-                        <img src="./images/star.png" alt="" class="product-card__star-img">
-                        <img src="./images/star.png" alt="" class="product-card__star-img">
-                        <img src="./images/star.png" alt="" class="product-card__star-img">
-                        <img src="./images/star.png" alt="" class="product-card__star-img">
-                    </div>
-                    <a href="#" class="product-card__review-link">
-                        <span class="product-card__review-amount">10</span>
-                        <span class="product-card__review">відгуків</span>
-                    </a>
-                </div>
-                <div class="product-card__price-section">
-                    <span class="product-card__price-text">Цена:</span>
-                    <div class="product-card__price-now-inner">
-                        <span class="product-card__price-now">6 850 грн</span>
-                        <span class="product-card__cashback">+ 69грн кешбек</span>
-                    </div>
-                    <span class="product-card__old-price">8 999</span>
-                </div>
-                <div class="product-card__btns">
-                    <button class="product-card__btn">Купити</button>
-                    <button class="product-card__favorite">
-                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="1280.000000pt"
-                            height="1189.000000pt" viewBox="0 0 1280.000000 1189.000000"
-                            preserveAspectRatio="xMidYMid meet">
-                            <metadata>
-                                Created by potrace 1.15, written by Peter Selinger 2001-2017
-                            </metadata>
-                            <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)" fill="#000000"
-                                stroke="none">
-                                <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
-                        -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
-                        634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
-                        -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
-                        408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
-                        196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
-                        -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
-                        -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
-                        610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
-                            </g>
-                        </svg></button>
-                    <button class="product-card__compare">
-                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="1280.000000pt"
-                            height="1199.000000pt" viewBox="0 0 1280.000000 1199.000000"
-                            preserveAspectRatio="xMidYMid meet">
-                            <metadata>
-                                Created by potrace 1.15, written by Peter Selinger 2001-2017
-                            </metadata>
-                            <g transform="translate(0.000000,1199.000000) scale(0.100000,-0.100000)" fill="#000000"
-                                stroke="none">
-                                <path d="M6376 11948 c-3 -24 -22 -239 -41 -478 -74 -919 -116 -1177 -208
-                       -1277 -11 -13 -24 -23 -29 -23 -5 0 -43 33 -86 73 -111 104 -159 141 -251 196
-                       -337 203 -835 262 -1401 165 -265 -45 -502 -109 -1112 -298 -307 -96 -472
-                       -142 -658 -186 -284 -66 -633 -110 -717 -88 -40 10 -46 9 -68 -12 -13 -12 -27
-                       -34 -30 -49 -5 -23 35 -468 50 -558 l6 -33 174 0 c96 0 175 -2 175 -5 0 -3
-                       -23 -67 -51 -142 -63 -170 -483 -1311 -589 -1598 -77 -211 -344 -933 -850
-                       -2305 -149 -404 -321 -871 -382 -1038 l-112 -302 -98 0 c-61 0 -98 -4 -98 -10
-                       0 -6 22 -43 49 -83 191 -283 548 -560 1031 -801 182 -91 331 -147 515 -194
-                       453 -118 959 -120 1440 -7 542 128 927 369 1529 955 l138 135 -117 5 -117 5
-                       -115 310 c-172 468 -592 1606 -951 2580 -257 698 -583 1581 -892 2418 l-29 77
-                       1871 0 1871 0 -7 -192 c-4 -106 -20 -582 -36 -1058 -99 -2894 -116 -3391 -161
-                       -4670 -17 -487 -31 -986 -32 -1110 -1 -223 -1 -227 36 -415 61 -306 62 -466 1
-                       -587 -71 -141 -306 -345 -589 -513 -511 -302 -1401 -602 -2347 -791 -19 -4
-                       -28 -12 -28 -25 0 -19 53 -19 3340 -19 3287 0 3340 0 3340 19 0 13 -9 21 -27
-                       25 -1001 200 -1887 507 -2414 837 -254 158 -450 343 -516 485 -25 53 -28 73
-                       -31 184 -3 113 0 144 37 330 65 331 63 297 41 928 -11 312 -33 965 -50 1452
-                       -17 487 -39 1142 -50 1455 -30 878 -79 2301 -103 3015 l-22 645 1844 3 c1014
-                       1 1846 1 1847 -1 2 -1 -92 -259 -207 -572 -291 -790 -658 -1786 -979 -2655
-                       -149 -404 -384 -1041 -522 -1415 -137 -374 -256 -694 -263 -712 l-14 -32 -104
-                       -3 -104 -3 68 -95 c192 -267 446 -475 871 -714 170 -95 269 -141 431 -200 371
-                       -134 788 -189 1194 -155 259 21 546 79 763 154 298 104 634 314 955 598 166
-                       148 415 389 415 403 0 10 -24 14 -107 16 l-108 3 -148 400 c-81 220 -262 711
-                       -401 1090 -258 698 -590 1598 -1048 2840 -138 374 -279 757 -313 850 -35 94
-                       -66 178 -70 188 -7 16 6 17 178 17 l186 0 5 33 c16 97 56 540 50 561 -3 13
-                       -16 34 -29 46 -22 20 -28 22 -66 12 -33 -8 -68 -6 -178 13 -295 51 -478 96
-                       -1026 250 -657 185 -898 244 -1170 289 -283 47 -437 59 -700 53 -258 -5 -386
-                       -21 -533 -63 -204 -59 -330 -134 -499 -296 -61 -60 -115 -108 -120 -108 -14 0
-                       -48 40 -67 77 -30 59 -66 204 -86 346 -30 215 -47 400 -105 1117 -21 266 -23
-                       280 -45 280 -13 0 -19 -11 -24 -42z m-3918 -3158 c118 -320 358 -973 892
-                       -2420 503 -1363 772 -2094 825 -2237 l53 -143 -1894 0 c-1042 0 -1894 1 -1894
-                       3 0 4 -42 -110 890 2417 149 404 383 1039 520 1410 225 611 462 1253 475 1289
-                       3 8 7 12 9 10 2 -2 58 -150 124 -329z m8139 -58 c78 -213 264 -718 413 -1122
-                       448 -1216 755 -2047 1025 -2780 140 -382 267 -723 280 -758 14 -34 25 -67 25
-                       -72 0 -7 -650 -10 -1890 -10 -1039 0 -1890 3 -1890 6 0 7 53 152 530 1444 149
-                       404 383 1039 520 1410 137 371 371 1006 521 1410 149 404 281 763 292 798 12
-                       34 24 62 27 62 3 0 69 -175 147 -388z" />
-                            </g>
-                        </svg></button>
-                </div>
-            </div>
-        </div>
-        <div class="product-card">
-            <div class="product-card__inner">
-                <div class="product-card__img-inner">
-                    <img src="./images/holod.png" alt="" class="product-card__img">
-                </div>
-                <div class="product-card__stock">
-                    <span class="product-card__stock-item">-24%</span>
-                    <span class="product-card__stock-item">хит</span>
-                </div>
-                <p class="product-card__stock-text">
-                    Знижка до 26% на холодильники
-                </p>
-                <h3 class="product-card__name">Холодильник Whirlpool W7 911 IOX (F00186964)</h3>
-                <div class="product-card__rate">
-                    <div class="product-card__star-inner">
-                        <img src="./images/star.png" alt="" class="product-card__star-img">
-                        <img src="./images/star.png" alt="" class="product-card__star-img">
-                        <img src="./images/star.png" alt="" class="product-card__star-img">
-                        <img src="./images/star.png" alt="" class="product-card__star-img">
-                        <img src="./images/star.png" alt="" class="product-card__star-img">
-                    </div>
-                    <a href="#" class="product-card__review-link">
-                        <span class="product-card__review-amount">10</span>
-                        <span class="product-card__review">відгуків</span>
-                    </a>
-                </div>
-                <div class="product-card__price-section">
-                    <span class="product-card__price-text">Цена:</span>
-                    <div class="product-card__price-now-inner">
-                        <span class="product-card__price-now">6 850 грн</span>
-                        <span class="product-card__cashback">+ 69грн кешбек</span>
-                    </div>
-                    <span class="product-card__old-price">8 999</span>
-                </div>
-                <div class="product-card__btns">
-                    <button class="product-card__btn">Купити</button>
-                    <button class="product-card__favorite">
-                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="1280.000000pt"
-                            height="1189.000000pt" viewBox="0 0 1280.000000 1189.000000"
-                            preserveAspectRatio="xMidYMid meet">
-                            <metadata>
-                                Created by potrace 1.15, written by Peter Selinger 2001-2017
-                            </metadata>
-                            <g transform="translate(0.000000,1189.000000) scale(0.100000,-0.100000)" fill="#000000"
-                                stroke="none">
-                                <path d="M3250 11884 c-25 -2 -106 -11 -180 -20 -1485 -172 -2704 -1295 -3001
-                        -2764 -133 -660 -67 -1507 171 -2223 252 -753 675 -1411 1397 -2172 342 -360
-                        634 -630 1588 -1470 231 -203 488 -430 570 -505 1024 -920 1735 -1692 2346
-                        -2547 l130 -183 132 0 132 1 130 192 c557 822 1212 1560 2185 2461 191 178
-                        408 373 1027 923 956 852 1445 1343 1841 1850 643 825 968 1603 1064 2553 19
-                        196 17 665 -5 835 -105 805 -441 1497 -998 2054 -557 557 -1250 894 -2054 998
-                        -193 24 -613 24 -810 0 -733 -93 -1379 -387 -1920 -874 -191 -172 -406 -417
-                        -535 -610 -30 -45 -57 -82 -60 -82 -3 0 -30 37 -60 82 -129 193 -344 438 -535
-                        610 -531 478 -1170 773 -1878 867 -146 20 -562 34 -677 24z" />
-                            </g>
-                        </svg></button>
-                    <button class="product-card__compare">
-                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="1280.000000pt"
-                            height="1199.000000pt" viewBox="0 0 1280.000000 1199.000000"
-                            preserveAspectRatio="xMidYMid meet">
-                            <metadata>
-                                Created by potrace 1.15, written by Peter Selinger 2001-2017
-                            </metadata>
-                            <g transform="translate(0.000000,1199.000000) scale(0.100000,-0.100000)" fill="#000000"
-                                stroke="none">
-                                <path d="M6376 11948 c-3 -24 -22 -239 -41 -478 -74 -919 -116 -1177 -208
-                       -1277 -11 -13 -24 -23 -29 -23 -5 0 -43 33 -86 73 -111 104 -159 141 -251 196
-                       -337 203 -835 262 -1401 165 -265 -45 -502 -109 -1112 -298 -307 -96 -472
-                       -142 -658 -186 -284 -66 -633 -110 -717 -88 -40 10 -46 9 -68 -12 -13 -12 -27
-                       -34 -30 -49 -5 -23 35 -468 50 -558 l6 -33 174 0 c96 0 175 -2 175 -5 0 -3
-                       -23 -67 -51 -142 -63 -170 -483 -1311 -589 -1598 -77 -211 -344 -933 -850
-                       -2305 -149 -404 -321 -871 -382 -1038 l-112 -302 -98 0 c-61 0 -98 -4 -98 -10
-                       0 -6 22 -43 49 -83 191 -283 548 -560 1031 -801 182 -91 331 -147 515 -194
-                       453 -118 959 -120 1440 -7 542 128 927 369 1529 955 l138 135 -117 5 -117 5
-                       -115 310 c-172 468 -592 1606 -951 2580 -257 698 -583 1581 -892 2418 l-29 77
-                       1871 0 1871 0 -7 -192 c-4 -106 -20 -582 -36 -1058 -99 -2894 -116 -3391 -161
-                       -4670 -17 -487 -31 -986 -32 -1110 -1 -223 -1 -227 36 -415 61 -306 62 -466 1
-                       -587 -71 -141 -306 -345 -589 -513 -511 -302 -1401 -602 -2347 -791 -19 -4
-                       -28 -12 -28 -25 0 -19 53 -19 3340 -19 3287 0 3340 0 3340 19 0 13 -9 21 -27
-                       25 -1001 200 -1887 507 -2414 837 -254 158 -450 343 -516 485 -25 53 -28 73
-                       -31 184 -3 113 0 144 37 330 65 331 63 297 41 928 -11 312 -33 965 -50 1452
-                       -17 487 -39 1142 -50 1455 -30 878 -79 2301 -103 3015 l-22 645 1844 3 c1014
-                       1 1846 1 1847 -1 2 -1 -92 -259 -207 -572 -291 -790 -658 -1786 -979 -2655
-                       -149 -404 -384 -1041 -522 -1415 -137 -374 -256 -694 -263 -712 l-14 -32 -104
-                       -3 -104 -3 68 -95 c192 -267 446 -475 871 -714 170 -95 269 -141 431 -200 371
-                       -134 788 -189 1194 -155 259 21 546 79 763 154 298 104 634 314 955 598 166
-                       148 415 389 415 403 0 10 -24 14 -107 16 l-108 3 -148 400 c-81 220 -262 711
-                       -401 1090 -258 698 -590 1598 -1048 2840 -138 374 -279 757 -313 850 -35 94
-                       -66 178 -70 188 -7 16 6 17 178 17 l186 0 5 33 c16 97 56 540 50 561 -3 13
-                       -16 34 -29 46 -22 20 -28 22 -66 12 -33 -8 -68 -6 -178 13 -295 51 -478 96
-                       -1026 250 -657 185 -898 244 -1170 289 -283 47 -437 59 -700 53 -258 -5 -386
-                       -21 -533 -63 -204 -59 -330 -134 -499 -296 -61 -60 -115 -108 -120 -108 -14 0
-                       -48 40 -67 77 -30 59 -66 204 -86 346 -30 215 -47 400 -105 1117 -21 266 -23
-                       280 -45 280 -13 0 -19 -11 -24 -42z m-3918 -3158 c118 -320 358 -973 892
-                       -2420 503 -1363 772 -2094 825 -2237 l53 -143 -1894 0 c-1042 0 -1894 1 -1894
-                       3 0 4 -42 -110 890 2417 149 404 383 1039 520 1410 225 611 462 1253 475 1289
-                       3 8 7 12 9 10 2 -2 58 -150 124 -329z m8139 -58 c78 -213 264 -718 413 -1122
-                       448 -1216 755 -2047 1025 -2780 140 -382 267 -723 280 -758 14 -34 25 -67 25
-                       -72 0 -7 -650 -10 -1890 -10 -1039 0 -1890 3 -1890 6 0 7 53 152 530 1444 149
-                       404 383 1039 520 1410 137 371 371 1006 521 1410 149 404 281 763 292 798 12
-                       34 24 62 27 62 3 0 69 -175 147 -388z" />
-                            </g>
-                        </svg></button>
-                </div>
-            </div>
-        </div>
-    </div>
+        </section>
+    </main>
 
     <script src="js/main.min.js"></script>
 </body>

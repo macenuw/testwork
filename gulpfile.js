@@ -12,6 +12,8 @@ const uglify = require('gulp-uglify');
 const imagemin = require('gulp-imagemin');
 const del = require('del');
 const browserSync = require('browser-sync').create();
+const cssfont64 = require('gulp-cssfont64');
+
 
 
 function browsersync() {
@@ -39,7 +41,7 @@ function styles() {
 
 function scripts() {
     return src([
-            'node_modules/jquery/dist/jquery.js',
+            // 'node_modules/jquery/dist/jquery.js',
             'app/js/main.js'
         ])
         .pipe(concat('main.min.js'))
@@ -96,8 +98,6 @@ function watching() {
     watch(['app/*.html']).on('change', browserSync.reload);
 }
 
-
-
 exports.styles = styles;
 exports.scripts = scripts;
 exports.browsersync = browsersync;
@@ -107,15 +107,3 @@ exports.cleanDist = cleanDist;
 
 exports.build = series(cleanDist, images, build);
 exports.default = parallel(styles, scripts, browsersync, watching);
-
-
-
-
-
-
-
-
-
-// function (){
-//     return
-// }

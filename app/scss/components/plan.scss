@@ -1,0 +1,138 @@
+.plan {
+  display: flex;
+  justify-content: center;
+  padding: 47px 0 40px 0;
+  background-color: #fff;
+  border: 4px solid transparent;
+  max-width: 380px;
+  width: 100%;
+  transition: .3s;
+
+  &:hover {
+    padding: 58px 0 59px 0;
+    border-color: #FF8D00;
+  }
+
+  &:not(:last-child) {
+    margin: 0 20px 0 0;
+
+    @media (max-width:740px) {
+      margin: 0 0 20px 0;
+    }
+  }
+
+  &__inner {
+    max-width: 205px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__period {
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 24px;
+    color: #323642;
+
+    &::after {
+      content: "";
+      width: 24px;
+      height: 2px;
+      background-color: #4CB649;
+      position: absolute;
+      left: calc(50% - 12px);
+      bottom: -12px;
+    }
+  }
+
+  &__price {
+    padding: 0 52px 16px 20px;
+    font-size: 56px;
+    line-height: 74px;
+    position: relative;
+    border-bottom: 1px solid #EBECED;
+    margin-bottom: 28px;
+    color: #22252E;
+
+    &::before {
+      content: '$';
+      font-size: 24px;
+      position: absolute;
+      left: 0;
+      color: #22252E;
+    }
+
+    &::after {
+      content: "/mo.";
+      font-size: 24px;
+      line-height: 32px;
+      position: absolute;
+      bottom: 28px;
+      right: 0;
+      color: #22252E;
+    }
+  }
+
+  &__benefit {
+    font-size: 14px;
+    line-height: 19px;
+    min-height: 45px;
+    margin-bottom: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__benefit-text {
+    color: #323642;
+  }
+
+  &__benefit-text--accent {
+    color: #F24458;
+    margin-right: 8px;
+  }
+
+  &__select-btn {
+    margin-top: auto;
+    width: 100%;
+  }
+
+  &__btn {
+    background: none;
+    box-shadow: none;
+    border: 1px solid #4CB649;
+    border-radius: 20px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    transition: .3s;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #FF8D00;
+      border-color: #FF8D00;
+
+      .plan__btn-text {
+        display: none;
+      }
+
+      .plan__btn-text--selected {
+        display: block;
+        color: #fff;
+      }
+    }
+  }
+
+  &__btn-text {
+    color: #4CB649;
+    text-transform: uppercase;
+
+    &--selected {
+      display: none;
+    }
+  }
+}
